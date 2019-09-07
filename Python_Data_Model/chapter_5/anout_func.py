@@ -37,17 +37,17 @@ import random
 # print(b.pick())
 # print(callable(b))
 
-def t(name, age, b, c, **exp):
-        print(exp)
-        return 1
-
-
-i = {'name': 'wud',
-     'age': 22,
-     'b': 'b',
-     'c': 'c',
-     'collage': 'harbin institute of technology'
-}
-
-
-t(**i)
+# def t(name, age, b, c, **exp):
+#         print(exp)
+#         return 1
+#
+#
+# i = {'name': 'wud',
+#      'age': 22,
+#      'b': 'b',
+#      'c': 'c',
+#      'collage': 'harbin institute of technology'
+# }
+#
+#
+# t(**i)
