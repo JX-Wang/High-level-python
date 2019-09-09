@@ -51,3 +51,44 @@ import random
 #
 #
 # t(**i)
+# def d(func):
+#     def inner():
+#         print('running %s' % func)
+#     return inner
+#
+# @d
+# def taget():
+#     print("running target")
+#
+# taget()
+# print (taget)
+# a = [1, 2, 3]
+# b = [1, 2, 3]
+# print(a.__eq__(b))
+# import threading
+# import time
+#
+#
+# def run():
+#     i = 0
+#     print('Now thread is : ' + threading.current_thread().name)
+#     for _ in range(100000000):
+#         i += 1
+#
+# def start():
+#
+#     start = time.time()
+#     thread_list = []
+#     for i in range(5):
+#         t = threading.Thread(target=run, name="thread_%d" % i)
+#         thread_list.append(t)
+#         t.start()
+#
+#     for t in thread_list:
+#         t.join()
+#
+#     print("Total time:", time.time() - start)
+#
+#
+# if __name__ == '__main__':
+#     start()
