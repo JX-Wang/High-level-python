@@ -7,6 +7,8 @@ while True:
         while n & 1 == 0:
             n >>= 1
 
+        print n
+
         ans = 1
         d = 3
         while d*d <= n:
